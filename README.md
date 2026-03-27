@@ -27,6 +27,17 @@ University: Manipal University Jaipur, India (2024-2028)\
 Degree: Bachelors of technology\
 Field of study: Computer and Communication Engineering (CCE)
 
+# My projects:
+SMAF- A smart city healthcare framework starting with a medical chatbot for all users involving, Python,MedGemma,React, MongoDB, Hugging face transformers (Ongoing, will take 3 - 4 months). Will have ambulance, traffic etc systems near future.\
+https://github.com/code9999-0000/SMAF-Smart-Metropolitian-Ai-Framework-
+
+FinanceFlow-  The Budget Planning and Expense Analyzer is a web-based application designed to help users manage their personal finances efficiently. The main objective of the system is to allow users to record their income, track daily expenses, and plan budgets for different spending categories. The application is developed using web technologies including HTML and CSS for the user interface and MySQL for data storage.\
+https://github.com/code9999-0000/FinanceFlow
+
+Rapid India- An ambulance management system, that sends sos, tracks ambulances, guides through the shortest route with real time notifications, updates.
+Real-time ambulance tracking system, Route optimization using maps/traffic data APIs, Hospital availability integration (beds, ICU, etc.), Emergency request interface for users, Prototype showing request → dispatch → optimized route. (Group project)\
+https://github.com/ashmeets711/Rapid-India
+
 # Potential Mentor(s)
 Lincoln Stein <lincoln.stein@gmail.com>\
 Shraddha Pai <spai@oicr.on.ca>
@@ -271,6 +282,30 @@ Weekends: 1.5 hrs/day × 2 = 3 hrs
 
 # Skill Set
 DSA|| Java|| C ||C++ || Python || Chainlit(familiar) || MySQL || React(typescript)|| Mapbox (Geomapping) APIs || VSCode || HuggingFace || MedGemma LLM || Operating System(ShellScript) || HTML || CSS || Github || RAG || Finetuning || PostgreSQL ||
+
+# How is my project different?
+1. *Patient-first conversational design (not just a chatbot)*
+Instead of acting as a simple query interface, the system conducts a guided, empathetic conversation. It incrementally builds a structured patient context. This ensures that even non-technical users who describe their situation vaguely can still receive results.
+2. *Real-time integration of chat, map, and results (not isolated components)*
+Unlike traditional tools where search results and maps are separate, CareOnco tightly synchronizes three components:
+Chat (understanding user intent)
+Map (visualizing nearby trials)
+Results panel (structured summaries)
+User actions in one component immediately update the others creating a unified exploratory experience.
+3. *Hybrid filtering + intelligent scoring (not rigid eligibility matching)*
+Most platforms either over-filter or overwhelm users with irrelevant results. My system combines:
+Hard SQL filters for essential eligibility
+Flags for complex criteria instead of excluding them
+This ensures patients are not prematurely excluded and are encouraged to discuss borderline cases with their doctors.
+4. *Built-in evaluation and safety layer*
+The system incorporates:
+Guardrails to prevent unsafe or misleading responses
+RAGAS-based evaluation to continuously measure answer quality (relevancy, faithfulness, recall)
+This shifts the project from just a working prototype to a measurable and trustworthy system
+6. *At last, this project matters to me* because I have seen many cancer cases in my near vicinity and moreover I understand how overwhelming it could be to patients when medical help is not clear and understandable, how deeply it affects the mental state of a patient and decreases their morale .
+
+
+
 
 THANK YOU
 -------------------------------------------------------
