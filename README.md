@@ -5,7 +5,7 @@ Patient-Facing Clinical Trial Chatbot with Interactive Map
 # CareOnco : Patient Facing Clinical Trial Chatbot with Interactive Map
 Contributor Proposal : Stein and Pai Labs, GSoC 2026\
 Cancer patients are often left on their own to find clinical trials of cutting-edge therapies. This project seeks to develop an LLM-driven chatbot and interactive map that lets patients describe their situation and find nearby clinical trial sites that they may be eligible for.
-The Cancer Trials Canada (CCTS) database holds hundreds of potentially life-saving studies — but its public interface requires patients to already know what they are looking for and most do not. That is why our project CareOnco is needed. To give the patients exactly what they need served on their plate.\
+The Cancer Trials Canada (CCTS) database holds hundreds of potentially life-saving studies  but its public interface requires patients to already know what they are looking for and most do not. That is why our project CareOnco is needed. To give the patients exactly what they need served on their plate.\
 *What are we building?*\
 A LLM driven chatbot and interactive map, here the patients describe their present condition, symptoms in plain language and recieve personalised, location wise list of trials they are eligible for. 
 patient can type- "i have stage 3 lung cancer and live in toronto" and recieve nearby trials list with a map showing their locations and links to their description along with summaries using the cancer trial canada website.\
@@ -242,12 +242,12 @@ The patient clicks a trial, reads the summary, and contacts the study coordinato
 
 
 # UML Diagram
-1. COMPONENT DIAGRAM
+1. COMPONENT DIAGRAM\
    A simple diagram to understand diff components in the careOnco project. 
 
  <img width="1440" height="1102" alt="image" src="https://github.com/user-attachments/assets/7ce9522e-94eb-4bee-a06f-3fc884276f73" />
 
-2. USE CASE DIAGRAM
+2. USE CASE DIAGRAM\
    Clearly explains what actors are involved and what action they can perform.
 
    <img width="1440" height="1016" alt="image" src="https://github.com/user-attachments/assets/00a37133-2c60-4b9a-8c19-38c2417b030e" />
